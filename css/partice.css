@@ -1,0 +1,33 @@
+.container {
+    width: 1000px;
+    max-width: 1000px;
+    margin: auto;
+    background: #000;
+}
+
+.h3_content {
+    font-size: 30px;
+}
+
+.pictures {
+    display: flex; /* 讓子元素水平排列 */
+    justify-content: space-between; /* 或用 center、start、end，看你要怎麼排列 */
+    gap: 20px; /* 卡片間距 */
+}
+
+.cards {
+    width: calc(33.33% - 20px); /* 平均分配三等份，扣掉 gap */
+    background: #f0f0f0; /* 增加背景方便觀察 */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.btn {
+    display: inline-block;
+    line-height: 30px;
+    padding: 0 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: #db5959;
+    color: #fff;
+}

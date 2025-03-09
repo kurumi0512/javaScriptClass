@@ -1,0 +1,18 @@
+@import "css/reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+.box {
+  width: 50px;
+  height: 50px;
+  background: #000;
+  transition: background 0.3s, width 0.3s 0.3s, height 0.3s 0.6s;
+  overflow: hidden;
+  color: pink;
+}
+
+.box:hover {
+  width: 100px;
+  height: 100px;
+  background: orange;
+  transition: height 0.3s, width 0.3s 0.3s, background 0.3s 0.6s;
+}

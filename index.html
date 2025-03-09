@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kurumi</title>
+    <link rel="stylesheet" href="css/day1.css">
+</head>
+<body>
+    <h1 class="items">123</h1>
+    <a href="mailto:ffff@gmail.com?subject=詢問&body=您好，想詢問...">寄信給我</a>
+    <!-- 表單 -->
+    <form action="#" method="get">
+        <p>
+            <label>Text:
+            <input name="username" type="text" placeholder="請輸入文字" required>
+            </label>
+        </p>
+        <p>PSN:
+            <input type="password" placeholder="請輸入文字" minlength="3" maxlength="5">
+        </p>
+        <p>
+         數字:
+         <input type="number">
+        </p>
+        <p>
+          電話:
+          <input type="tel">
+        </p>
+        <p>
+            Email:
+         <input type="email">
+        </p>
+        <p>
+            URL:
+            <input type="url">
+        </p>
+        
+        <p>
+            Date
+            <input type="date">
+        </p>
+        <p>
+            Time:
+            <input type="time">
+        </p>
+        <p>
+            Color:
+            <input type="color">
+        </p>
+        <p>
+            Range:
+            <input type="range" min="20" max="100" name="range_input" step="10">
+        </p>
+        <p>
+            File:
+            <input type="file">
+        </p>
+        <p>
+            checkbox:
+            <label>
+            <input name="checkForm" type="checkbox" value="checkForm_1"checked>1
+            </label>
+            <label>
+            <input name="checkForm" type="checkbox" value="checkForm_2">2
+            </label>
+        </p>
+        <p>
+            Radio：
+            
+            <input name="radioForm" type="radio" value="radioForm_1" id="radio_1">1
+            <label>
+            <input name="radioForm" type="radio" value="radioForm_2" checked>2
+            </label>
+        </p>
+        <p>
+            Search：
+            <input type="search">
+        </p>
+        <p>
+            下拉選單:
+        <select name="selectForm" id="">
+            <option value="selectForm_1">111</option>
+            <option value="selectForm_2">222</option>
+            <option value="selectForm_3">333</option>
+        </select>
+        </p>
+        <label for="radio_1">1</label>
+        <input type="submit" value="點擊送出">
+        <input type="reset" value="清空表單">
+        <input type="button" value="按鈕的說明文字">
+        <!-- 如果還要在按鈕中放其他內容要用有頭尾標籤的 -->
+        <button>按鈕</button>
+    </form>
+
+
+    <h1>標題</h1>
+    <p>123</p>
+    (ul)
+     (ul>li*3)+(ol>li*3)
+
+     <table border="1">
+        <caption>表格標題</caption>
+        <th>一</th>
+        <th>二</th>
+        <th>三</th>
+        <th>四</th>
+    </table>
+
+
+    <!-- 頁首標籤 -->
+     <header> 
+     </header>
+     <!-- 頁尾標籤 -->
+    <footer></footer>
+    <!-- 導覽列 -->
+     <nav></nav>
+    <!-- 主要區塊 -->
+     <main></main>
+     <!-- 與頁面有關連，但沒有直接關係的區塊(廣告、推薦) -->
+    <aside></aside>
+    <!-- 文章區塊 -->
+     <article></article>
+    <!-- 章節區塊 -->
+     <section></section>
+     <!-- 與內容相關的獨立區塊 -->
+      <figure>
+        <img src="flower.jpg" alt="" width="400">
+        <figcaption>這是一張xxx</figcaption> 
+      </figure>
+    <!-- 空標籤 -->
+     <div>div</div>
+     <span>span</span>
+     <!-- _blank開新分頁 -->
+     <a target="_blank" href="https://www.google.com">連到google</a>
+     <a target="_blank" href="https://www.google.com"><img src="flower.jpg" alt=""width="300"></a>
+     <a href="html/about.html">連到about </a>
+     <a href="html/about.html#Link">連到about img</a>
+     <a href="tel:093852122">點擊撥號</a>
+     <a href="mailto:ffff@gmail.com">gmail</a>
+    <table border="1">
+        <caption>表格標題</caption>
+        <tr>
+            <th>一</th>
+            <th>二</th>
+            <th>三</th>
+            <th>四</th>
+        </tr>
+        <tr>
+            <td colspan="2">寫字</td>
+            <td>游泳</td>
+            <td>排球</td> 
+        </tr>
+        <tr>
+            <td>寫字</td>
+            <td rowspan="2">書法</td>
+            <td>游泳</td>
+            <td>排球</td> 
+        </tr>
+        <tr>
+            <td>寫字</td>
+            <td>游泳</td>
+            <td>排球</td> 
+        </tr>
+        <tr>
+            <td>寫字</td>
+        </tr>
+    </table>
+    <!-- 產內文 -->
+    p{123}
+    <P>452</P>
+
+    <img src="123" alt="">    
+
+    <p>123</p>
+    <p>123</p>
+    <p>123</p>
+
+    <h1>標題</h1>
+    <p>123</p>
+
+
+    <!-- 圖片標籤 -->
+    <!-- 絕對路徑 -->
+     <img src="https://shoplineimg.com/5da7fd959db3cb004ea189c2/614067b58a4f9d0014b52bf4/800x.jpg?" alt="向日葵">
+    <!-- 相對路徑 -->
+     <!-- 同層 -->
+     <img src="flower.jpg" alt="向日葵" width="300">
+    <!-- 相對路徑 不同層 -->
+     <img src="img/ff.jpg" alt="小向日葵" width="300">
+    <!-- 影片標籤，影片會自動撥放 -->
+    <video src="22.mp4" poster="https://www.siraya-nsa.gov.tw/image/88166/compressed" width="500" autoplay="true" loop controls muted>影片壞掉了</video>
+    <!-- 影片標籤，影片不會自動撥放， -->
+    <video src="https://videos.pexels.com/video-files/5802517/5802517-hd_1080_1920_30fps.mp4" poster="https://www.siraya-nsa.gov.tw/image/88166/compressed" width="500" loop controls muted>影片壞掉了</video>
+
+    <!-- 試試看兩個影片會優先跑哪個 -->
+    <video  poster="https://www.siraya-nsa.gov.tw/image/88166/compressed" width="500" autoplay="true" loop controls muted>
+     <source src="22.webm">
+     <source src="22.mp4">
+      <p>影片壞掉了</p> </video>
+    <!-- 試試看兩個影片會優先跑哪個 -->
+      <video  poster="https://www.siraya-nsa.gov.tw/image/88166/compressed" width="500" autoplay="true" loop controls muted>
+        <source src="https://videos.pexels.com/video-files/3755079/3755079-uhd_2732_1440_25fps.mp4">
+        <source src="https://videos.pexels.com/video-files/3756143/3756143-uhd_1440_2732_25fps.mp4">
+         <p>影片壞掉了</p> </video>
+    <!-- 圖片廢人機制 -->
+     <picture>
+        <source srcset="flower1.jpg">
+        <img src="flower.jpg" alt="圖片不支援" width="300">
+     </picture>
+
+     <picture>
+        <!-- 不低於800px= 寬度大於800px -->
+        <source srcset="6.jpg" media="(min-width:800px)">
+        <!-- 不高於700px=寬度小於700px -->
+        <source srcset="7.jpg" media="(max-width:700px)">
+        <img src="8.jpg" alt="圖片不支援" width="300">
+     </picture>
+
+    <!-- 標題 -->
+    <h1>H1</h1>
+    <h2>H2</h2>
+    <h3>H3</h3>
+    <h4>H4</h4>
+    <h5>H5</h5>
+    <h6>H6</h6>
+    <!-- 內文 -->
+    <p>Lorem ipsum dolor sit  amet consectetur adipisicing elit. Quae, laboriosam.</p>
+    <!-- 換行標題 -->
+    <p>Lorem ipsum dolor sit <br> 
+        amet consectetur, adipisicing elit. Labore nemo quo veniam incidunt. Accusantium corrupti dolores quam! Quidem voluptates libero in quisquam rerum iusto illum? Blanditiis distinctio atque ullam quos!</p>
+    <!-- 重點字標籤 -->
+    <!-- strong -->
+    <p>內文<strong>重點字</strong></p>
+    <p>內文<b>重點字</b></p>
+    <!-- em -->
+    <p>我<i>喜歡</i>貓咪</p>
+    <p>我喜歡<em>貓咪</em></p>
+
+    <!-- 引用標籤 -->
+    <blockquote cite="">
+        123
+    </blockquote>
+
+    <q cite="">123</q>
+
+    
+
+</body>
+</html>

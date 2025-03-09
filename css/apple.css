@@ -1,0 +1,141 @@
+p {
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  background: radial-gradient(
+    circle farthest-corner at left,
+    rgb(165, 210, 255),
+    rgb(255, 255, 255)
+  );
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center; /* 使內容置中 */
+  background-color: #fff;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+.nav_bar {
+  width: 1000px; /* 可以調整這個寬度來控制導航欄寬度 */
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center; /* 使所有項目置中 */
+  gap: 20px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  margin: auto;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu_list {
+  line-height: 40px;
+  padding: 0 10px;
+  cursor: pointer;
+  position: relative;
+  flex-direction: row;
+  background: #ffffff;
+  transition: all 1s;
+}
+
+.menu_list:hover {
+  background-color: #ffffff;
+}
+
+.sub_list_title {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.submenu {
+  display: none;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  padding-left: 330px;
+  width: 100%;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.submenu1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sub_list {
+  display: flex;
+  align-items: center;
+}
+
+.menu_list:hover .submenu {
+  display: block;
+}
+
+.main_content {
+  display: flex; /* 使這個區塊成為flex容器 */
+  flex-direction: column; /* 讓內容垂直排列 */
+  justify-content: center; /* 垂直居中 */
+  align-items: center; /* 水平居中 */
+  padding: 20px;
+}
+
+h4 {
+  font-size: 60px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+h2 {
+  color: #5a5757;
+  font-size: 15px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.see_btn {
+  background-color: #0071e3;
+  line-height: 50px;
+  padding: 11 21px;
+  border: 0.8;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.priced_btn {
+  background-color: #ffffff;
+  line-height: 50px;
+  padding: 0 10px;
+  border-radius: 5px;
+  color: #0071e3;
+  cursor: pointer;
+}
+
+.priced_btn:hover {
+  background-color: #0071e3; /* 滑鼠懸停效果 */
+  color: #fff;
+}

@@ -1,0 +1,148 @@
+body {
+    background: #eee;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    background: #fff;
+    padding-top: 50px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.nav_bar {
+    width: 1000px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_list {
+    line-height: 50px;
+    padding: 0 20px;
+}
+
+.submenu {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    background: #fff;
+    gap: 50px;
+    display: none;
+}
+
+.menu_list:hover .submenu {
+    display: flex;
+}
+
+.ipad-air {
+    width: 100%;
+    background: url("https://fakeimg.pl/300/") no-repeat bottom #aaa;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 250px;
+}
+
+.ipad-air_content {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.btn_set {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    line-height: 40px;
+    padding: 0 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.btn-main {
+    background: #000;
+    color: #fff;
+}
+
+.btn-sec {
+    border: 2px solid #000;
+}
+
+.ipad {
+    width: 100%;
+    background: #aaa;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ipad_content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    margin-left: -20px;
+    gap: 20px;
+}
+
+.two_col {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cards {
+    width: calc(50% - 10px);
+    background: url("https://fakeimg.pl/250x200/") no-repeat bottom #aaa;
+    padding-bottom: 250px;
+}
+
+.card_content {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.card_content h2,
+.card_content p,
+.card_content span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.banner_area {
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner_content {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: -720px;
+}
